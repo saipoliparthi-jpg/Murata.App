@@ -136,7 +136,7 @@ const Employees = ({ media }) => {
                   }
                 />
 
-                <p>{formatSalary(employee.salary)}</p>
+                <p className="paragraph">{formatSalary(employee.salary)}</p>
               </td>
 
               <td>
